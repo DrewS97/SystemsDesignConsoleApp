@@ -2,6 +2,7 @@ using System;
 
 namespace SystemsDesignConsoleApp{
     public class Menus{
+        //Printing the menu
         public static void Menu()
         {
             Console.WriteLine("Welcome to your personal computer assistant. =)");
@@ -14,6 +15,7 @@ namespace SystemsDesignConsoleApp{
             MenuUse();
         }
 
+        //Menu Functionality
         public static void MenuUse()
         {
             string answer = Console.ReadLine();
@@ -23,29 +25,61 @@ namespace SystemsDesignConsoleApp{
                     GreetMe();
                     break;
                 case "2":
-                    Console.WriteLine("In Progress. Come back later.");
+                    CalcRectangle();
                     break;
                 case "3":
-                    Console.WriteLine("In Progress. Come back later.");
+                    CalcMPG();
                     break;
                 case "4":
                     Console.WriteLine("In Progress. Come back later.");
                     break;
                 case "q":
-                    Console.WriteLine("I hope we helped solve your problem!");
+                    Console.WriteLine("\nI hope we helped solve your problem! =)");
                     break;
                 default:
-                    Console.WriteLine($"Please enter either \"1\", \"2\", \"3\", \"4\" or \"q\".\n");
+                    Console.WriteLine($"\nPlease enter either \"1\", \"2\", \"3\", \"4\" or \"q\".\n");
                     break;
+            }
+            if(answer != "q")
+            {
+                Menu();
             }
         }
 
+        //Option 1
         public static void GreetMe()
         {
             Console.WriteLine("What is your name?");
             string name = Console.ReadLine();
-            Console.WriteLine($"Hello there, {name} I hope that you're doing well today!");
+            Console.WriteLine($"Hello there, {name} I hope that you're doing well today!\n");
         }
+
+        //Option 2
+        public static void CalcRectangle()
+        {
+            Console.WriteLine("\nEnter the height of the rectangle: ");
+            double height = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("\nEnter the width of the rectangle: ");
+            double width = Convert.ToDouble(Console.ReadLine());
+
+            double area = height * width;
+            Console.WriteLine($"\nThe area of your rectangle is {area}\n");
+        }
+
+        //Option 3
+        public static void CalcMPG()
+        {
+            Console.WriteLine("How many miles have you driven?");
+            double miles = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("How many gallons of gas have you consumed?");
+            double gallons = Convert.ToDouble(Console.ReadLine());
+
+            double mpg = miles / gallons;
+            Console.WriteLine($"\nYour car gets approximately {mpg} MPG\n");
+        }
+
+        //Option 4
+        
     }
 
 }
