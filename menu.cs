@@ -9,7 +9,7 @@ namespace SystemsDesignConsoleApp{
             Console.WriteLine("[1] Enter '1' for a custom greeting!");
             Console.WriteLine("[2] Enter '2' to calculate the area of a rectangle.");
             Console.WriteLine("[3] Enter '3' to calculate your Miles Per Gallon.");
-            Console.WriteLine("[4] Enter '4' to search a phrase in the first sentence of Alice in Wonderland.");
+            Console.WriteLine("[4] Enter '4' to search a phrase in the first sentence of Alice's Adventures in Wonderland.");
             Console.WriteLine("[q] Enter 'q' to quit.");
             Console.WriteLine("Please enter an option:");
             MenuUse();
@@ -31,7 +31,7 @@ namespace SystemsDesignConsoleApp{
                     CalcMPG();
                     break;
                 case "4":
-                    Console.WriteLine("In Progress. Come back later.");
+                    Alice();
                     break;
                 case "q":
                     Console.WriteLine("\nI hope we helped solve your problem! =)");
@@ -79,7 +79,17 @@ namespace SystemsDesignConsoleApp{
         }
 
         //Option 4
-        
+        public static void Alice()
+        {
+            string story = "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do:" +
+            "once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversation?'";
+
+            Console.WriteLine("Enter a phrase to search: ");
+            string answer = Console.ReadLine();
+
+            bool alice = story.Contains(answer);
+            Console.WriteLine($"\nIt is {alice} that {answer} is contained in the opening sentence to Alice's Adventures in WonderLand\n");
+        }
     }
 
 }
