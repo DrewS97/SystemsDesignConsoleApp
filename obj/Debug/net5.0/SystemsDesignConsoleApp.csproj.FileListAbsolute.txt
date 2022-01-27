@@ -1,0 +1,16 @@
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\bin\Debug\net5.0\SystemsDesignConsoleApp.exe
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\bin\Debug\net5.0\SystemsDesignConsoleApp.deps.json
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\bin\Debug\net5.0\SystemsDesignConsoleApp.runtimeconfig.json
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\bin\Debug\net5.0\SystemsDesignConsoleApp.runtimeconfig.dev.json
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\bin\Debug\net5.0\SystemsDesignConsoleApp.dll
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\bin\Debug\net5.0\ref\SystemsDesignConsoleApp.dll
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\bin\Debug\net5.0\SystemsDesignConsoleApp.pdb
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\obj\Debug\net5.0\SystemsDesignConsoleApp.csprojAssemblyReference.cache
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\obj\Debug\net5.0\SystemsDesignConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\obj\Debug\net5.0\SystemsDesignConsoleApp.AssemblyInfoInputs.cache
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\obj\Debug\net5.0\SystemsDesignConsoleApp.AssemblyInfo.cs
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\obj\Debug\net5.0\SystemsDesignConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\obj\Debug\net5.0\SystemsDesignConsoleApp.dll
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\obj\Debug\net5.0\ref\SystemsDesignConsoleApp.dll
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\obj\Debug\net5.0\SystemsDesignConsoleApp.pdb
+C:\Users\drews\gitprojects\SystemsDesignConsoleApp\obj\Debug\net5.0\SystemsDesignConsoleApp.genruntimeconfig.cache
